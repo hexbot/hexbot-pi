@@ -1,0 +1,230 @@
+{
+	"loop": true,
+	"length": 2400,
+	"sets": {
+		"step_up": {
+			"bindings": ["hip", "knee", "foot"],
+			"length": 300,
+			"frames": [
+				{
+					"position": 0,
+					"moves": {
+						"knee": [20, 300],
+						"foot": [-20, 300],
+						"hip": [-10, 300]
+					}
+				}
+			]
+		},
+		"step_down": {
+			"bindings": ["hip", "knee", "foot"],
+			"length": 300,
+			"frames": [
+				{
+					"position": 0,
+					"moves": {
+						"knee": [-20, 300],
+						"foot": [20, 300]
+					}
+				}
+			]
+		},
+		"move_forward": {
+			"bindings": ["hip", "knee", "foot"],
+			"length": 600,
+			"frames": [
+				{
+					"position": 0,
+					"moves": {
+						"hip": [10, 600]
+					}
+				}
+			]
+		}
+	},
+	"play": [
+		{
+			"position": 0,
+			"set": "step_up",
+			"bindings": {
+				"hip": "left_hip_1",
+				"knee": "left_knee_1",
+				"foot": "left_foot_1"
+			}
+		},
+		{
+			"position": 0,
+			"set": "step_up",
+			"bindings": {
+				"hip": "left_hip_3",
+				"knee": "left_knee_3",
+				"foot": "left_foot_3"
+			}
+		},
+		{
+			"position": 0,
+			"set": "step_up",
+			"bindings": {
+				"hip": "right_hip_2",
+				"knee": "right_knee_2",
+				"foot": "right_foot_2"
+			}
+		},
+
+
+
+
+		{
+			"position": 300,
+			"set": "move_forward",
+			"bindings": {
+				"hip": "right_hip_1",
+				"knee": "right_knee_1",
+				"foot": "right_foot_1"
+			}
+		},
+		{
+			"position": 300,
+			"set": "move_forward",
+			"bindings": {
+				"hip": "right_hip_3",
+				"knee": "right_knee_3",
+				"foot": "right_foot_3"
+			}
+		},
+		{
+			"position": 300,
+			"set": "move_forward",
+			"bindings": {
+				"hip": "left_hip_2",
+				"knee": "left_knee_2",
+				"foot": "left_foot_2"
+			}
+		},
+
+
+
+
+
+		{
+			"position": 900,
+			"set": "step_down",
+			"bindings": {
+				"hip": "left_hip_1",
+				"knee": "left_knee_1",
+				"foot": "left_foot_1"
+			}
+		},
+		{
+			"position": 900,
+			"set": "step_down",
+			"bindings": {
+				"hip": "left_hip_3",
+				"knee": "left_knee_3",
+				"foot": "left_foot_3"
+			}
+		},
+		{
+			"position": 900,
+			"set": "step_down",
+			"bindings": {
+				"hip": "right_hip_2",
+				"knee": "right_knee_2",
+				"foot": "right_foot_2"
+			}
+		},
+
+
+
+
+		{
+			"position": 1200,
+			"set": "step_up",
+			"bindings": {
+				"hip": "right_hip_1",
+				"knee": "right_knee_1",
+				"foot": "right_foot_1"
+			}
+		},
+		{
+			"position": 1200,
+			"set": "step_up",
+			"bindings": {
+				"hip": "right_hip_3",
+				"knee": "right_knee_3",
+				"foot": "right_foot_3"
+			}
+		},
+		{
+			"position": 1200,
+			"set": "step_up",
+			"bindings": {
+				"hip": "left_hip_2",
+				"knee": "left_knee_2",
+				"foot": "left_foot_2"
+			}
+		},
+
+
+
+
+
+		{
+			"position": 1500,
+			"set": "move_forward",
+			"bindings": {
+				"hip": "left_hip_1",
+				"knee": "left_knee_1",
+				"foot": "left_foot_1"
+			}
+		},
+		{
+			"position": 1500,
+			"set": "move_forward",
+			"bindings": {
+				"hip": "left_hip_3",
+				"knee": "left_knee_3",
+				"foot": "left_foot_3"
+			}
+		},
+		{
+			"position": 1500,
+			"set": "move_forward",
+			"bindings": {
+				"hip": "right_hip_2",
+				"knee": "right_knee_2",
+				"foot": "ritgh_foot_2"
+			}
+		},
+
+
+		{
+			"position": 2100,
+			"set": "step_down",
+			"bindings": {
+				"hip": "right_hip_1",
+				"knee": "right_knee_1",
+				"foot": "right_foot_1"
+			}
+		},
+		{
+			"position": 2100,
+			"set": "step_down",
+			"bindings": {
+				"hip": "right_hip_3",
+				"knee": "right_knee_3",
+				"foot": "right_foot_3"
+			}
+		},
+		{
+			"position": 2100,
+			"set": "step_down",
+			"bindings": {
+				"hip": "left_hip_2",
+				"knee": "left_knee_2",
+				"foot": "left_foot_2"
+			}
+		}
+
+	]
+}

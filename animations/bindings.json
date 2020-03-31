@@ -1,0 +1,73 @@
+{
+	"bindings": {
+		"left_hip_1": {
+			"bind": 0,
+			"offset": 10
+		},
+		"left_knee_1": {
+			"bind": 1,
+			"coef": -1
+		},
+		"left_foot_1": {
+			"bind": 2
+		},
+		"left_hip_2": {
+			"bind": 3,
+			"offset": 10
+		},
+		"left_knee_2": {
+			"bind": 4,
+			"coef": -1
+		},
+		"left_foot_2": {
+			"bind": 5
+		},
+		"left_hip_3": {
+			"bind": 6,
+			"offset": 10
+		},
+		"left_knee_3": {
+			"bind": 7,
+			"coef": -1
+		},
+		"left_foot_3": {
+			"bind": 8
+		},
+		"right_hip_1": {
+			"bind": 15,
+			"coef": -1,
+			"offset": 10
+		},
+		"right_knee_1": {
+			"bind": 16,
+			"coef": -1
+		},
+		"right_foot_1": {
+			"bind": 17
+		},
+		"right_hip_2": {
+			"bind": 12,
+			"coef": -1,
+			"offset": 10
+		},
+		"right_knee_2": {
+			"bind": 13,
+			"coef": -1
+		},
+		"right_foot_2": {
+			"bind": 14
+		},
+		"right_hip_3": {
+			"bind": 9,
+			"coef": -1,
+			"offset": 10
+		},
+		"right_knee_3": {
+			"bind": 10,
+			"coef": -1
+		},
+		"right_foot_3": {
+			"bind": 11
+		}
+	}
+}
