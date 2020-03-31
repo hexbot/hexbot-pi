@@ -19,9 +19,9 @@ target_link_libraries(pihexbot hexbot)
 include_directories(core/src)
 
 add_custom_command(TARGET pihexbot POST_BUILD
-    COMMAND scp $<TARGET_FILE:pihexbot> pi@192.168.0.200:/opt/hexbot
+    COMMAND cp $<TARGET_FILE:pihexbot> /opt/hexbot
 )
 
 add_custom_command(TARGET pihexbot POST_BUILD
-    COMMAND scp ${CMAKE_CURRENT_SOURCE_DIR}/animations/* pi@192.168.0.200:/opt/hexbot/animations
+    COMMAND cp ${CMAKE_CURRENT_SOURCE_DIR}/animations/* /opt/hexbot/animations
 )

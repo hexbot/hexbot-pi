@@ -1,73 +1,76 @@
 {
 	"bindings": {
 		"left_hip_1": {
-			"bind": 0,
+			"bind": 4,
 			"offset": 10
 		},
 		"left_knee_1": {
-			"bind": 1,
-			"coef": -1
+			"bind": 0
 		},
 		"left_foot_1": {
-			"bind": 2
+			"bind": 9,
+			"coef": -1
 		},
 		"left_hip_2": {
-			"bind": 3,
-			"offset": 10
+			"bind": 19,
+			"offset": -10
 		},
 		"left_knee_2": {
-			"bind": 4,
-			"coef": -1
+			"bind": 18,
+			"offset": -10
 		},
 		"left_foot_2": {
-			"bind": 5
-		},
-		"left_hip_3": {
-			"bind": 6,
-			"offset": 10
-		},
-		"left_knee_3": {
-			"bind": 7,
+			"bind": 21,
 			"coef": -1
 		},
+		"left_hip_3": {
+			"bind": 23,
+			"offset": -10
+		},
+		"left_knee_3": {
+			"bind": 22,
+			"offset": 10
+		},
 		"left_foot_3": {
-			"bind": 8
+			"bind": 20,
+			"coef": -1,
+			"offset": -10
 		},
 		"right_hip_1": {
-			"bind": 15,
+			"bind": 13,
 			"coef": -1,
 			"offset": 10
 		},
 		"right_knee_1": {
-			"bind": 16,
-			"coef": -1
+			"bind": 12
 		},
 		"right_foot_1": {
-			"bind": 17
-		},
-		"right_hip_2": {
-			"bind": 12,
-			"coef": -1,
-			"offset": 10
-		},
-		"right_knee_2": {
-			"bind": 13,
+			"bind": 3,
 			"coef": -1
 		},
-		"right_foot_2": {
+		"right_hip_2": {
+			"bind": 7,
+			"coef": -1,
+			"offset": -10
+		},
+		"right_knee_2": {
 			"bind": 14
 		},
+		"right_foot_2": {
+			"bind": 8,
+			"coef": -1
+		},
 		"right_hip_3": {
-			"bind": 9,
+			"bind": 11,
 			"coef": -1,
 			"offset": 10
 		},
 		"right_knee_3": {
-			"bind": 10,
-			"coef": -1
+			"bind": 10
 		},
 		"right_foot_3": {
-			"bind": 11
+			"bind": 2,
+			"coef": -1
 		}
 	}
 }

@@ -96,7 +96,7 @@ int main()
         exit(-2);
     }
 
-    RoboMove(MOVE_Forward);
+    RoboMove(MOVE_Stop);
 
     std::chrono::steady_clock::time_point oldTime = std::chrono::steady_clock::now();
     while (true)
