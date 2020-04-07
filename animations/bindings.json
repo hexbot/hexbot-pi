@@ -2,10 +2,11 @@
 	"bindings": {
 		"left_hip_1": {
 			"bind": 4,
-			"offset": 10
+			"offset": -5
 		},
 		"left_knee_1": {
-			"bind": 0
+			"bind": 0,
+			"offset": 10
 		},
 		"left_foot_1": {
 			"bind": 9,
@@ -25,11 +26,11 @@
 		},
 		"left_hip_3": {
 			"bind": 23,
-			"offset": -10
+			"offset": 0
 		},
 		"left_knee_3": {
 			"bind": 22,
-			"offset": 10
+			"offset": 20
 		},
 		"left_foot_3": {
 			"bind": 20,
@@ -46,7 +47,8 @@
 		},
 		"right_foot_1": {
 			"bind": 3,
-			"coef": -1
+			"coef": -1,
+			"offset": 10
 		},
 		"right_hip_2": {
 			"bind": 7,
@@ -62,15 +64,16 @@
 		},
 		"right_hip_3": {
 			"bind": 11,
-			"coef": -1,
-			"offset": 10
+			"coef": -1
 		},
 		"right_knee_3": {
-			"bind": 10
+			"bind": 10,
+			"offset": -10
 		},
 		"right_foot_3": {
 			"bind": 2,
-			"coef": -1
+			"coef": -1,
+			"offset": -10
 		}
 	}
 }

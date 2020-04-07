@@ -19,7 +19,7 @@ static bool PiMoveServoCallback(int servo, float angle, uint32_t time)
 {
     char moves[32];
     int angle_int = (int)(1500.f + (angle / 90.0f) * 500.f);
-    sprintf(moves, "#%d P%d\r", servo, angle_int);
+    sprintf(moves, "#%d P%d T%d\r", servo, angle_int, time);
 
     std::cout << "Moving: " << moves << std::endl;
     write(USBPort, moves, strlen(moves));
@@ -82,8 +82,18 @@ static int PiInitDriver()
 
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wmissing-noreturn"
-int main()
+int main(int argc, char** argv)
 {
+    /*
+    if (argc < 2)
+    {
+        std::cerr << "Usage: pihexbot <unix domain socket>" << std::endl;
+        exit(-1);
+    }
+
+    const char* socket = argv[1];
+*/
+
     if (RoboInit("animations", PiLogCallback, PiMoveServoCallback) == 0)
     {
         std::cerr << "Failed to init robo lib!" << std::endl;
@@ -96,7 +106,7 @@ int main()
         exit(-2);
     }
 
-    RoboMove(MOVE_Stop);
+    RoboMove(MOVE_Forward);
 
     std::chrono::steady_clock::time_point oldTime = std::chrono::steady_clock::now();
     while (true)

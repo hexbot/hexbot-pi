@@ -3,15 +3,50 @@
 	"length": 1500,
 	"sets": {
 		"stay": {
-			"bindings": ["hip", "knee", "foot"],
+			"bindings": ["knee", "foot"],
 			"length": 1500,
 			"frames": [
 				{
 					"position": 0,
 					"moves": {
-						"knee": [-20, 1500],
-						"foot": [0, 1500],
+						"knee": [-100, 1500],
+						"foot": [40, 1500]
+					}
+				}
+			]
+		},
+		"hip_forward": {
+			"bindings": ["hip"],
+			"length": 1500,
+			"frames": [
+				{
+					"position": 0,
+					"moves": {
+						"hip": [60, 1500]
+					}
+				}
+			]
+		},
+		"hip_middle": {
+			"bindings": ["hip"],
+			"length": 1500,
+			"frames": [
+				{
+					"position": 0,
+					"moves": {
 						"hip": [0, 1500]
+					}
+				}
+			]
+		},
+		"hip_backward": {
+			"bindings": ["hip"],
+			"length": 1500,
+			"frames": [
+				{
+					"position": 0,
+					"moves": {
+						"hip": [-60, 1500]
 					}
 				}
 			]
@@ -22,54 +57,90 @@
 			"position": 0,
 			"set": "stay",
 			"bindings": {
-				"hip": "left_hip_1",
 				"knee": "left_knee_1",
 				"foot": "left_foot_1"
 			}
 		},
 		{
 			"position": 0,
+			"set": "hip_forward",
+			"bindings": {
+				"hip": "left_hip_1"
+			}
+		},
+		{
+			"position": 0,
 			"set": "stay",
 			"bindings": {
-				"hip": "left_hip_3",
 				"knee": "left_knee_3",
 				"foot": "left_foot_3"
 			}
 		},
 		{
 			"position": 0,
+			"set": "hip_backward",
+			"bindings": {
+				"hip": "left_hip_3"
+			}
+		},
+		{
+			"position": 0,
 			"set": "stay",
 			"bindings": {
-				"hip": "right_hip_2",
 				"knee": "right_knee_2",
 				"foot": "right_foot_2"
 			}
 		},
 		{
 			"position": 0,
+			"set": "hip_middle",
+			"bindings": {
+				"hip": "right_hip_2"
+			}
+		},
+		{
+			"position": 0,
 			"set": "stay",
 			"bindings": {
-				"hip": "right_hip_1",
 				"knee": "right_knee_1",
 				"foot": "right_foot_1"
 			}
 		},
 		{
 			"position": 0,
-			"set": "stay",
+			"set": "hip_forward",
 			"bindings": {
-				"hip": "right_hip_3",
-				"knee": "right_knee_3",
-				"foot": "right_foot_3"
+				"hip": "right_hip_1"
 			}
 		},
 		{
 			"position": 0,
 			"set": "stay",
 			"bindings": {
-				"hip": "left_hip_2",
+				"knee": "right_knee_3",
+				"foot": "right_foot_3"
+			}
+		},
+		{
+			"position": 0,
+			"set": "hip_backward",
+			"bindings": {
+				"hip": "right_hip_3"
+			}
+		},
+		{
+			"position": 0,
+			"set": "stay",
+			"bindings": {
 				"knee": "left_knee_2",
 				"foot": "left_foot_2"
+			}
+		},
+		{
+			"position": 0,
+			"set": "hip_middle",
+			"bindings": {
+				"hip": "left_hip_2"
 			}
 		}
 	]
